@@ -458,7 +458,7 @@
           });
           it('should return array of items with sale prices', function () {
             var data = applyCoupon(testGrocery, 0.20);
-            expect(data[10].salePrice).to.equal('$4.47');
+            expect(data[10].salePrice).to.equal('$5.39');
           });
           it('items in array should have added salePrice property', function () {
             var onSale = applyCoupon(testGrocery, 0.20);
